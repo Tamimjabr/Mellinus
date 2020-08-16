@@ -1,0 +1,22 @@
+#product{
+    margin: 20px 120px;
+
+    width:200px ;
+    height: 800x;
+}
+#product > img{
+    width: 100%;
+    border-radius: 10px;
+}
+#product > p > b{
+    color: red;
+}
+#product > button{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    background-color: rgb(88, 221, 88);
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
