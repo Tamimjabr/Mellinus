@@ -1,0 +1,8 @@
+#valkommen{
+    width: 100%;
+    background-color: rgb(82, 78, 78);
+}
+#valkommen > video{
+    width: 100%;
+    height: 500px;
+}
