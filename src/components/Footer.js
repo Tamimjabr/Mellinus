@@ -9,8 +9,8 @@ function Footer(){
         <div className="contact">        
               <div className="information">
                 <h2>Mellinus Present<br/>
-                 Smålandsstenar<br/>
-                 Sweden
+                Södra Nissastigen 3<br/>
+                 Smålandsstenar
                 </h2>
                <a href="https://www.youtube.com/channel/UCjhR4gCJHKhxl8bjVWTgUbQ?view_as=subscriber"><IoLogoYoutube className="socialIcon youtube"/></a>
             <a href="https://www.instagram.com/mellinus/"><GrInstagram className="socialIcon instagram"/></a>
