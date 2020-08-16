@@ -10,7 +10,7 @@ function Footer(){
               <div className="information">
                 <h2>Mellinus Present<br/>
                 Södra Nissastigen 3<br/>
-                
+                 333 31 Smålandsstenar
                 </h2>
                <a href="https://www.youtube.com/channel/UCjhR4gCJHKhxl8bjVWTgUbQ?view_as=subscriber"><IoLogoYoutube className="socialIcon youtube"/></a>
             <a href="https://www.instagram.com/mellinus/"><GrInstagram className="socialIcon instagram"/></a>
