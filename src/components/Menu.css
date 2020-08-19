@@ -4,12 +4,42 @@
     align-items: center;
     justify-content: space-evenly;
 }
-#menu > a{
+#menu > a, #menu > div > a{
     text-decoration: none;
     padding: 5px 15px;
     color: black;
+    font-size: 18px;
+    font-weight: 600;
 }
-#menu > a:hover{
-    background-color: black;
-    color: blanchedalmond;
+#menu > a:hover, #menu > div>a:hover{
+ transform: scale(1.2);
+ color: salmon;
 }
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropDown-content{
+    position: absolute;
+    z-index: 1;
+    padding: 20px 30px 30px 20px;
+  
+}
+.dropDown-content >a{
+    display: none;
+    text-decoration: none;
+    color: black;
+    margin: 15px 0px;
+    font-size: 20px;
+   
+}
+.dropDown:hover .dropDown-content >a{
+   display: block;
+}
+.dropDown:hover .dropDown-content{
+    background-color: white;
+}
+
+
+

@@ -5,7 +5,7 @@ const mainProducts=[ // creating a js array that contains objects. Add an id and
         link:"/",
         id:"cats",
         art: "98146",
-        price: "399",   
+        price: "599",   
     },
     {
         link: "/",

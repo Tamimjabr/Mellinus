@@ -3,7 +3,6 @@ import Header from "../components/Header"
 import Footer from "../components/Footer"
 import UpperLine from "../components/UpperLine"
 import Menu from "../components/Menu"
-import Valkommen from "../components/Valkommen"
 import Main from "../components/Main"
 
 function Home(){
@@ -12,10 +11,11 @@ function Home(){
         <UpperLine/>
         <Header/>
         <Menu/>
-        <Valkommen/>
         <Main/>
         <Footer/>
         </div>
     )
 }
 export default Home
+
+/*delete the valkommen component*/

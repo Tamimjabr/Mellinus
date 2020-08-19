@@ -12,7 +12,7 @@
     
 }
 #information{
-    color: blanchedalmond;
+    color: white;
     font-size: 16px;
     text-align: center;
     padding: 15px 0px 20px 0px;
@@ -23,17 +23,13 @@
     padding: 5px;
 }
 #workTime{
-    color: blanchedalmond;
+    color: white;
 }
 .socialIcon{
     width: 40px;
     height: 40px;
     padding: 10px;
     font-size: 150%;
-}
-.youtube{
-    color: 	#ff0000;
-   
 }
 .instagram{
     color:#9a37ac;
