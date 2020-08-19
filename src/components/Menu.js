@@ -43,56 +43,40 @@ function Menu(){
         <div className="dropDown">
              <Link to="/">ÄNGLAR</Link>
                 <div className="dropDown-content">
-                <Link to="/">BARN</Link>
-                <Link to="/">ÄNGLAR</Link>
-                <Link to="/">BADRUM & HUDVÅRD</Link>
-                <Link to="/">ACCESSOARER</Link>
-                <Link to="/">HÖGTIDER</Link>
-                <Link to="/">ERBJUDANDE</Link>
+                <Link to="/">GLAS</Link>
+                <Link to="/">DEKORATION</Link>
+                <Link to="/">INREDNING</Link>
                 </div>
         </div>
         <div className="dropDown">
              <Link to="/">BADRUM & HUDVÅRD</Link>
                 <div className="dropDown-content">
-                <Link to="/">BARN</Link>
-                <Link to="/">ÄNGLAR</Link>
-                <Link to="/">BADRUM & HUDVÅRD</Link>
-                <Link to="/">ACCESSOARER</Link>
-                <Link to="/">HÖGTIDER</Link>
-                <Link to="/">ERBJUDANDE</Link>
+                <Link to="/">HURVÅRD</Link>
+                <Link to="/">MASSAGEOLJA</Link>
+                <Link to="/">TVÅL</Link>
                 </div>
         </div>
         <div className="dropDown">
              <Link to="/">ACCESSOARER</Link>
                 <div className="dropDown-content">
-                <Link to="/">BARN</Link>
-                <Link to="/">ÄNGLAR</Link>
-                <Link to="/">BADRUM & HUDVÅRD</Link>
-                <Link to="/">ACCESSOARER</Link>
-                <Link to="/">HÖGTIDER</Link>
-                <Link to="/">ERBJUDANDE</Link>
+                <Link to="/">SMYCKEN</Link>
+                <Link to="/">VÄSKOR</Link>
                 </div>
         </div>
         <div className="dropDown">
              <Link to="/">HÖGTIDER</Link>
                 <div className="dropDown-content">
-                <Link to="/">BARN</Link>
-                <Link to="/">ÄNGLAR</Link>
-                <Link to="/">BADRUM & HUDVÅRD</Link>
-                <Link to="/">ACCESSOARER</Link>
-                <Link to="/">HÖGTIDER</Link>
-                <Link to="/">ERBJUDANDE</Link>
+                <Link to="/">JUL</Link>
+                <Link to="/">PÅSK</Link>
+                <Link to="/">MORSDAG</Link>
+                <Link to="/">FARDAG</Link>
                 </div>
         </div>
         <div className="dropDown">
              <Link to="/">ERBJUDANDE</Link>
                 <div className="dropDown-content">
-                <Link to="/">BARN</Link>
-                <Link to="/">ÄNGLAR</Link>
-                <Link to="/">BADRUM & HUDVÅRD</Link>
-                <Link to="/">ACCESSOARER</Link>
-                <Link to="/">HÖGTIDER</Link>
-                <Link to="/">ERBJUDANDE</Link>
+                <Link to="/">50%</Link>
+                <Link to="/">UNDER 99 KR</Link>
                 </div>
         </div>
 
