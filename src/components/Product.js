@@ -1,13 +1,18 @@
 import React from "react"
+import {Link} from "react-router-dom"
 import "./Product.css"
-import cats from"../images/cats.jpg"
+import "./products/mainProducts.js"
 
-function Product(){
+
+
+
+function Product(props){
     return(
         <div id="product"> 
-        <img src={cats} alt="missing"/>     
-        <p>art-nr:7979 <br/>
-        <b>Pris: 299 kr</b></p>
+        <Link to={props.item.link}><div id={props.item.id}> </div>
+        </Link>
+        <p>art-nr:{props.item.art} <br/>
+        <b>Pris:{props.item.price} kr</b></p>
         <button>Köp</button>      
         </div>
     )

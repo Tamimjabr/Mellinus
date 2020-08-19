@@ -1,12 +1,15 @@
 #product{
     margin: 20px 120px;
-
-    width:200px ;
-    height: 800x;
+    width: 250px;
+    height: 400px;
+ 
 }
-#product > img{
+#product > a > div{
     width: 100%;
+    height: 70%;
     border-radius: 10px;
+    background-position: center center;
+    background-size: cover;
 }
 #product > p > b{
     color: red;
@@ -19,4 +22,18 @@
     background-color: rgb(88, 221, 88);
     font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+#cats{
+    background-image: url(../images/cats.jpg);
+}
+#aligns{
+    background-image: url(../images/aligns.jpg);
+}
+#chicken{
+    background-image: url(../images/chicken.jpg);
+}
+#vases{
+    background-image: url(../images/vases.jpg);
 }

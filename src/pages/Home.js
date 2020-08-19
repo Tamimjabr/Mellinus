@@ -4,7 +4,7 @@ import Footer from "../components/Footer"
 import UpperLine from "../components/UpperLine"
 import Menu from "../components/Menu"
 import Valkommen from "../components/Valkommen"
-import Product from "../components/Product"
+import Main from "../components/Main"
 
 function Home(){
     return(
@@ -13,7 +13,7 @@ function Home(){
         <Header/>
         <Menu/>
         <Valkommen/>
-        <Product/>
+        <Main/>
         <Footer/>
         </div>
     )
