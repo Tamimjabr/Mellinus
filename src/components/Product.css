@@ -10,10 +10,15 @@
     border-radius: 10px;
     background-position: center center;
     background-size: cover;
+    transition: 0.5s ease-in-out;
 }
+
 #details{
     display: flex;
     flex-direction: row;
+}
+#product > a >div:hover{
+    transform: scale(1.1);
 }
 
 #details > button{
