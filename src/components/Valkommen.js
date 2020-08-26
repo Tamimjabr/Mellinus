@@ -1,6 +1,6 @@
 import React from "react"
 import "./Valkommen.css"
-import valkommeVid from "../video/valkommeVid"
+import valkommeVid from "../video/valkommeVid.mp4"
 
 
 function Valkommen(){
