@@ -1,5 +1,6 @@
 #upperLine{
-    height: 40px;
+    margin: auto auto;
+    height: 6vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -24,4 +25,19 @@
     position: relative;
     top: -22px;
     font-size: 30px;
+}
+@media screen and (max-width:820px){
+    #upperLine{
+        flex-direction:column;
+        height: 25vh;
+    }
+   
+   
+}
+@media screen and (max-width: 400px) {
+    #upperLine{
+        flex-direction:column;
+        height: 20vh;
+    }
+ 
 }

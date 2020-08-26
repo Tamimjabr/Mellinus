@@ -12,12 +12,10 @@ function Header(){
             <Link to="/" id="mellinus">
              <p>Mellinus<br/><GiPresent/> Present</p>
             </Link>
-
-            <Link to="/" id="smaland">Butiken i Smålandsstenar
-            </Link>
+            <div>  <BsSearch/> Sök </div>
 
             <div >
-            <BsSearch/> Sök
+          
             <AiOutlineShoppingCart id="shoppingCart"/>
             </div>      
         

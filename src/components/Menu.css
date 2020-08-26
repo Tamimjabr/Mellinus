@@ -13,12 +13,12 @@
     text-decoration: none;
     padding: 5px 15px;
     color: black;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
+    padding: 12px 5px;
 }
 #menu > div>a:hover{
     color: #ee8572;
-    font-size: 20px;
     transition: 0.5s ease-in-out;
 }
 .dropdown{
@@ -31,7 +31,6 @@
     z-index: 1;
     padding: 20px 30px 30px 20px;
     transition: 0.5s ease-in-out;
-  
 }
 /*styling the links in dropdown*/
 .dropDown-content >a{
@@ -39,7 +38,7 @@
     text-decoration: none;
     color: black;
     margin: 15px 0px;
-    font-size: 20px;
+    font-size: 16px;
     padding: 5px 10px;
    
 }
@@ -59,6 +58,25 @@ box-shadow: 0px 18px 20px 0px rgba(0,0,0,0.53);
     -webkit-box-shadow: 0px 18px 20px 0px rgba(0,0,0,0.53);
     -moz-box-shadow: 0px 18px 20px 0px rgba(0,0,0,0.53);
     box-shadow: 0px 18px 20px 0px rgba(0,0,0,0.53);
+}
+
+@media screen and (max-width:820px){
+    #menu{
+      flex-direction: column;
+      height: 50vh;
+      justify-content: space-between;
+    }
+   /* the main titles*/
+    #menu .dropDown > a{
+        font-size: 16px;
+    }
+  
+  
+   
+   
+}
+@media screen and (max-width: 400px) {
+  
 }
 
 

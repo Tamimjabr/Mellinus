@@ -8,7 +8,7 @@ function Menu(){
         <div className="dropDown">
              <Link to="/">INREDNING</Link>
                 <div className="dropDown-content">
-                <Link to="/">VASAR</Link>
+                <Link to="/">VASER</Link>
                 <Link to="/">TAVLOR & RAMAR</Link>
                 <Link to="/">DOFTLJUS & DOFTPINNAR</Link>
                 <Link to="/">LYKTOR</Link>
