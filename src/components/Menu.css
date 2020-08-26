@@ -65,6 +65,7 @@ box-shadow: 0px 18px 20px 0px rgba(0,0,0,0.53);
       flex-direction: column;
       height: 50vh;
       justify-content: space-between;
+     margin: 1px 0px;
     }
    /* the main titles*/
     #menu .dropDown > a{
