@@ -1,8 +1,7 @@
 #product{
-    margin: 20px 120px;
+    margin: 30px 30px;
     width: 260px;
     height: 500px;
- 
 }
 #product > a > div{
     width: 100%;
@@ -48,4 +47,12 @@
 }
 #vases{
     background-image: url(../images/vases.jpg);
+}
+
+@media screen and (max-width:600px){
+    #product{
+        margin: 30px 30px;
+        width: 150px;
+        height: 400px;
+    }
 }
