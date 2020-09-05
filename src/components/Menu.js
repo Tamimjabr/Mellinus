@@ -1,12 +1,19 @@
 import React from "react"
+import $ from 'jquery'
 import "./Menu.css"
 import { Link } from 'react-router-dom'
+import {IoIosCloseCircle} from 'react-icons/io'
+
+function handleClick(){
+        $("#menu").animate({width:"-=250px"}, 500)
+}
 
 function Menu(){
     return(
     <div id="menu">
+        <IoIosCloseCircle id="closeBtn" onClick={handleClick}/> 
         <div className="dropDown">
-             <Link to="/">INREDNING</Link>
+             <Link to="/" className="menuSection">INREDNING</Link>
                 <div className="dropDown-content">
                 <Link to="/">VASER</Link>
                 <Link to="/">TAVLOR & RAMAR</Link>
@@ -17,7 +24,7 @@ function Menu(){
                 </div>
         </div>
         <div className="dropDown">
-             <Link to="/">KÖK</Link>
+             <Link to="/" className="menuSection">KÖK</Link>
                 <div className="dropDown-content">
                 <Link to="/">BURKAR</Link>
                 <Link to="/">TEXTIL</Link>
@@ -29,7 +36,7 @@ function Menu(){
                 </div>
         </div>
         <div className="dropDown">
-             <Link to="/">BARN</Link>
+             <Link to="/" className="menuSection">BARN</Link>
                 <div className="dropDown-content">
                 <Link to="/">MJUKA DJUR</Link>
                 <Link to="/">TRÄLEKSAKER</Link>
@@ -41,7 +48,7 @@ function Menu(){
                 </div>
         </div>
         <div className="dropDown">
-             <Link to="/">ÄNGLAR</Link>
+             <Link to="/" className="menuSection">ÄNGLAR</Link>
                 <div className="dropDown-content">
                 <Link to="/">GLAS</Link>
                 <Link to="/">DEKORATION</Link>
@@ -49,7 +56,7 @@ function Menu(){
                 </div>
         </div>
         <div className="dropDown">
-             <Link to="/">BADRUM & HUDVÅRD</Link>
+             <Link to="/" className="menuSection">BADRUM & HUDVÅRD</Link>
                 <div className="dropDown-content">
                 <Link to="/">HURVÅRD</Link>
                 <Link to="/">MASSAGEOLJA</Link>
@@ -57,14 +64,14 @@ function Menu(){
                 </div>
         </div>
         <div className="dropDown">
-             <Link to="/">ACCESSOARER</Link>
+             <Link to="/" className="menuSection">ACCESSOARER</Link>
                 <div className="dropDown-content">
                 <Link to="/">SMYCKEN</Link>
                 <Link to="/">VÄSKOR</Link>
                 </div>
         </div>
         <div className="dropDown">
-             <Link to="/">HÖGTIDER</Link>
+             <Link to="/" className="menuSection">HÖGTIDER</Link>
                 <div className="dropDown-content">
                 <Link to="/">JUL</Link>
                 <Link to="/">PÅSK</Link>
@@ -73,7 +80,7 @@ function Menu(){
                 </div>
         </div>
         <div className="dropDown">
-             <Link to="/">ERBJUDANDE</Link>
+             <Link to="/" className="menuSection">ERBJUDANDE</Link>
                 <div className="dropDown-content">
                 <Link to="/">50%</Link>
                 <Link to="/">UNDER 99 KR</Link>
