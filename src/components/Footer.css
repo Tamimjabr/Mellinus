@@ -53,7 +53,7 @@
 }
 /*style the map*/
 .gmap_canvas{
-    width: 400px;
+    width: 500px;
 }
 #gmap_canvas{
     width: 100%;
@@ -65,9 +65,4 @@ small{
 }
 small > span{
     font-size: 16px;
-}
-@media screen and (max-width:600px){
-    .mapouter .gmap_canvas > iframe{
-        width: 60vh;
-    }
 }
