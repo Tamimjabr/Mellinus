@@ -24,11 +24,9 @@ function Footer(){
                         Sön: Stängt
                     </h3>
                     </div>
-                    <div class="mapouter">
-                        <div class="gmap_canvas">
-                        <iframe width="570" height="254" id="gmap_canvas" title="map" src="https://maps.google.com/maps?q=mellinus%20sm%C3%A5landsstenar&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                     <div class="gmap_canvas">
+                        <iframe  id="gmap_canvas" title="map" src="https://maps.google.com/maps?q=mellinus%20sm%C3%A5landsstenar&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
                         </iframe>
-                        </div>
                     </div>
             </div>
 
