@@ -1,20 +1,16 @@
 import React from "react"
-import "./Valkommen.css"
+import "./Welcome.css"
 /*import valkommeVid from "../video/valkommeVid.mp4"*/
 import welcome from "../images/welcome.gif"
 
 
-function Valkommen(){
+function Welcome(){
     return(
-        <div id="valkommen" >
-            <img src={welcome} alt="welcome"/>
-
-            
+        <div id="welcome" >
+            <img src={welcome} alt="welcome to Mellinus"/>            
         </div>
     )
-     
-    
 }
-export default Valkommen
+export default Welcome
 /*alternativ to use video */
 /*<video  src={valkommeVid} autoPlay> Your browser does not support this video</video>           */

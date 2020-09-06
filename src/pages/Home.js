@@ -4,7 +4,7 @@ import Footer from "../components/Footer"
 import UpperLine from "../components/UpperLine"
 import Menu from "../components/Menu"
 import Main from "../components/Main"
-import Valkommen from "../components/Valkommen"
+import Welcome from "../components/Welcome"
 
 function Home(){
     return(
@@ -12,7 +12,7 @@ function Home(){
         <UpperLine/>
         <Header/>   
         <Menu/>
-        <Valkommen/>
+        <Welcome/>
         <Main/>
         <Footer/>
         </div>
@@ -20,4 +20,4 @@ function Home(){
 }
 export default Home
 
-/*delete the valkommen component*/
+/*delete the Welcome component*/
