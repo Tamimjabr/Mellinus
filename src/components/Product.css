@@ -11,15 +11,13 @@
     background-size: cover;
     transition: 0.5s ease-in-out;
 }
-
+#product > a >div:hover{
+    transform: scale(1.1);
+}
 #details{
     display: flex;
     flex-direction: row;
 }
-#product > a >div:hover{
-    transform: scale(1.1);
-}
-
 #details > button{
     width: 150px;
     height: 40px;
@@ -35,7 +33,6 @@
     background-color: black;
     color: white;
 }
-
 #cats{
     background-image: url(../images/cats.jpg);
 }
@@ -48,7 +45,6 @@
 #vases{
     background-image: url(../images/vases.jpg);
 }
-
 @media screen and (max-width:600px){
     #product{
         margin: 30px 30px;
