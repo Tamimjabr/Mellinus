@@ -6,7 +6,7 @@ import "./Footer.css"
 
 function Footer(){
     return(
-        <div id="footer">
+        <footer id="footer">
                 <div id="contact">        
                     <div id="information">
                     <h3>Mellinus Present<br/>
@@ -32,7 +32,7 @@ function Footer(){
 
             <small><span>&#169;</span> ALL COPYRIGHTS ARE RESERVED, 2020</small>
 
-        </div>
+        </footer>
     )
 }
 export default Footer

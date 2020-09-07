@@ -8,9 +8,9 @@ function Main(){
     const productsInHome = mainProducts.map(item=> <Product item={item}/>)
 
     return(
-        <div id="main" > 
+        <main id="main" > 
         {productsInHome}
-        </div>
+        </main>
     )
 }
 export default Main

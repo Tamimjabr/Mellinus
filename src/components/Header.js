@@ -6,7 +6,7 @@ import { Link } from "react-router-dom"
 
 function Header(){
     return(
-        <div id="header">
+        <haeder id="header">
              <Link to="/" id="mellinus">
              <p>Mellinus<br/><GiPresent/> Present</p>
             </Link>
@@ -17,7 +17,7 @@ function Header(){
             <AiOutlineShoppingCart id="shoppingCart"/>
             </div>      
         
-    </div>
+    </haeder>
     )
      
     

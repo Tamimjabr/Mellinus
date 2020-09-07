@@ -10,7 +10,7 @@ function handleClick(){
 
 function Menu(){
     return(
-    <div id="menu">
+    <nav id="menu">
         <IoIosCloseCircle id="closeBtn" onClick={handleClick}/> 
         <div className="dropDown">
              <Link to="/" className="menuSection">INREDNING</Link>
@@ -87,7 +87,7 @@ function Menu(){
                 </div>
         </div>
 
-    </div>
+    </nav>
     )
      
     
