@@ -6,21 +6,18 @@
     margin: 0px 0px;
     border-top: 1px double black;
     border-bottom: 1px double black;
-    padding: 20px;
+}
+.dropDown{
+  padding: 10px;
 }
 /*styling the main titles*/
 .menuSection{
     text-decoration: none;
-    padding: 5px 15px;
     color: black;
     font-size: 20px;
     font-weight: 600;
-    padding: 12px 5px;
 }
-.menuSection:hover{
-    color: #ee8572;
-    transition: 0.5s ease-in-out;
-}
+
 .dropDown-content{
     position: absolute;
     z-index: 1;
@@ -47,6 +44,10 @@ box-shadow: 0px 18px 20px 0px rgba(0,0,0,0.53);
 /*showing the links on hover*/
 .dropDown:hover .dropDown-content >a{
    display: block;
+}
+.dropDown:hover .menuSection{
+  color: #ee8572;
+  transition: 0.5s ease-in-out;
 }
 .dropDown:hover .dropDown-content{
     background-color: white;
