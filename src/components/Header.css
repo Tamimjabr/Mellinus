@@ -3,13 +3,12 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    justify-items: center;
-    font-size: 28px;
+    justify-items: space-evenly;
+    font-size: 1.8rem;
     flex-wrap: wrap;
 }
 #mellinus{
     font-family: 'Dancing Script', cursive;
-    font-size: 28px;
     position: relative;
     border-radius: 50%;
 }
@@ -31,14 +30,19 @@
     transition: 0.5s ease-in;
     }
 #shoppingCart{
-    margin: 40px 40px;
+    margin: 20px;
+    padding: 20px;
+    cursor: pointer;
 }
 #search{
-    width: 300px;
+    width: 50%;
+}
+#search input{
+    width: 80%;
     height: 2rem;
     border-radius: 20px;
     outline: none;
-    padding: 0 0 0 20px;
+    padding: 0 10%;
     margin-bottom: 20px;
 }
 @media screen and (max-width:600px){

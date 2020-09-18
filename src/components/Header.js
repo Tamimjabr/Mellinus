@@ -10,8 +10,8 @@ function Header(){
              <Link to="/" id="mellinus">
              <p>Mellinus<br/><GiPresent/> Present</p>
             </Link>
-            <div>
-             <input name="search" type="text" placeholder="Sök bland våra produkter" id="search"/>   
+            <div  id="search">
+             <input name="search" type="text" placeholder="Sök bland våra produkter"/>   
             </div>
             <div>
             <AiOutlineShoppingCart id="shoppingCart"/>
