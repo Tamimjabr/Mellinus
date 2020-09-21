@@ -21,11 +21,10 @@
     height: 6vh;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-items: center;
     justify-content: space-around;
+    align-items: center;
     color: rgb(0, 0, 0);
-    font-size: 18px;
+    font-size: 1.2rem;
 }
 #upperLineHr{
     width: 70%;
