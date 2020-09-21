@@ -17,7 +17,7 @@ function Header(){
             <AiOutlineShoppingCart id="shoppingCart"/>
             </div>      
         
-    </haeder>
+        </haeder>
     )
      
     
