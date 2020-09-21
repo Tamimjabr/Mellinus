@@ -38,8 +38,7 @@
   color: #ee8572;
   -webkit-box-shadow: 0px 18px 20px 0px rgba(0,0,0,0.53);
 -moz-box-shadow: 0px 18px 20px 0px rgba(0,0,0,0.53);
-box-shadow: 0px 18px 20px 0px rgba(0,0,0,0.53);
-   
+box-shadow: 0px 18px 20px 0px rgba(0,0,0,0.53);  
 }
 /*showing the links on hover*/
 .dropDown:hover .dropDown-content >a{
