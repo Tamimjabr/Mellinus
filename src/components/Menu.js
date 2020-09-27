@@ -1,28 +1,27 @@
-import React from "react"
-import $ from 'jquery'
-import "./Menu.css"
-import { Link } from 'react-router-dom'
-import {IoIosCloseCircle} from 'react-icons/io'
-import {CgMenuRound} from 'react-icons/cg'
+import React from "react";
+import $ from "jquery";
+import "./Menu.css";
+import { Link } from "react-router-dom";
+import { IoIosCloseCircle } from "react-icons/io";
+import { CgMenuRound } from "react-icons/cg";
 
-function handleClick(){
-        $("#menu").animate({width:"-=250px"}, 500)
+function handleClick() {
+  $("#menu").animate({ width: "-=250px" }, 500);
 }
-function handleClick2(){
-        //opening the menu
-        $("#menu").animate({width:"+=250px"}, 500)
+function handleClick2() {
+  //opening the menu
+  $("#menu").animate({ width: "+=250px" }, 500);
 }
 
-function Menu(){
-    return(    
-       <div>
-        <CgMenuRound id="menuIcon" onClick={handleClick2}/>
-        <nav id="menu">
-        
-         <IoIosCloseCircle id="closeBtn" onClick={handleClick}/> 
+function Menu() {
+  return (
+    <div>
+      <CgMenuRound id="menuIcon" onClick={handleClick2} />
+      <nav id="menu">
+        <IoIosCloseCircle id="closeBtn" onClick={handleClick} />
         <ul>
-        <label htmlFor="menucheckbox1"><li>INREDNING         
-        <input type="checkbox" id="menucheckbox1" className="checkboxes"></input>
+          <li>
+            INREDNING
             <ul>
               <li>
                 <Link to="/">VASER</Link>
@@ -43,9 +42,9 @@ function Menu(){
                 <Link to="/">ÖVRIG INREDNING</Link>
               </li>
             </ul>
-          </li></label>
-          <label htmlFor="menucheckbox2"><li>KÖK
-          <input type="checkbox" id="menucheckbox2" className="checkboxes"></input>
+          </li>
+          <li>
+            KÖK
             <ul>
               <li>
                 <Link to="/">BURKAR</Link>
@@ -69,9 +68,9 @@ function Menu(){
                 <Link to="/">ÖVRIGT KÖK</Link>
               </li>
             </ul>
-          </li></label>
-          <label htmlFor="menucheckbox3"><li>BARN
-          <input type="checkbox" id="menucheckbox3" className="checkboxes"></input>
+          </li>
+          <li>
+            BARN
             <ul>
               <li>
                 <Link to="/">MJUKA DJUR</Link>
@@ -95,9 +94,9 @@ function Menu(){
                 <Link to="/">SMYCKEN</Link>
               </li>
             </ul>
-          </li></label>
-          <label htmlFor="menucheckbox4"><li>ÄNGLAR
-          <input type="checkbox" id="menucheckbox4" className="checkboxes"></input>
+          </li>
+          <li>
+            ÄNGLAR
             <ul>
               <li>
                 <Link to="/">GLAS</Link>
@@ -109,9 +108,9 @@ function Menu(){
                 <Link to="/">INREDNING</Link>
               </li>
             </ul>
-          </li></label>
-          <label htmlFor="menucheckbox5"><li>BADRUM & HUDVÅRD
-          <input type="checkbox" id="menucheckbox5" className="checkboxes"></input>
+          </li>
+          <li>
+            BADRUM & HUDVÅRD
             <ul>
               <li>
                 <Link to="/">HURVÅRD</Link>
@@ -123,9 +122,9 @@ function Menu(){
                 <Link to="/">TVÅL</Link>
               </li>
             </ul>
-          </li></label>
-          <label htmlFor="menucheckbox6"><li>ACCESSOARER
-          <input type="checkbox" id="menucheckbox6" className="checkboxes"></input>
+          </li>
+          <li>
+            ACCESSOARER
             <ul>
               <li>
                 <Link to="/">SMYCKEN</Link>
@@ -134,9 +133,9 @@ function Menu(){
                 <Link to="/">VÄSKOR</Link>
               </li>
             </ul>
-          </li></label>
-          <label htmlFor="menucheckbox7"><li>HÖGTIDER
-          <input type="checkbox" id="menucheckbox7" className="checkboxes"></input>
+          </li>
+          <li>
+            HÖGTIDER
             <ul>
               <li>
                 <Link to="/">JUL</Link>
@@ -151,9 +150,9 @@ function Menu(){
                 <Link to="/">FARDAG</Link>
               </li>
             </ul>
-          </li></label>
-          <label htmlFor="menucheckbox8"><li>ERBJUDANDE
-          <input type="checkbox" id="menucheckbox8" className="checkboxes"></input>
+          </li>
+          <li>
+            ERBJUDANDE
             <ul>
               <li>
                 <Link to="/">50%</Link>
@@ -162,12 +161,10 @@ function Menu(){
                 <Link to="/">UNDER 99 KR</Link>
               </li>
             </ul>
-          </li></label>
+          </li>
         </ul>
       </nav>
-</div>
-    )
-     
-    
+    </div>
+  );
 }
-export default Menu
+export default Menu;

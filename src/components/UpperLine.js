@@ -1,5 +1,4 @@
 import React from "react"
-import $ from 'jquery'
 import "./UpperLine.css"
 import {FcShipped} from "react-icons/fc"
 
