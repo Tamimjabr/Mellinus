@@ -15,7 +15,7 @@ function handleClick2() {
 
 function Menu() {
   return (
-    <div>
+    <div id="menuContainer">
       <CgMenuRound id="menuIcon" onClick={handleClick2} />
       <nav id="menu">
         <IoIosCloseCircle id="closeBtn" onClick={handleClick} />
